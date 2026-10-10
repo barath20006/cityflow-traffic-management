@@ -1,0 +1,6 @@
+{
+  "name": "CityFlow",
+  "description": "Smart City Traffic Management System with OpenCV Vehicle Detection, Multi-Lane Counting, Adaptive Signals, and Congestion Alerts",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

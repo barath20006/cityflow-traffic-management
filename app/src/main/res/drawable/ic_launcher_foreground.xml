@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Traffic Signal Housing -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M42,26 h24 c3.3,0 6,2.7 6,6 v44 c0,3.3 -2.7,6 -6,6 h-24 c-3.3,0 -6,-2.7 -6,-6 v-44 c0,-3.3 2.7,-6 6,-6 z" />
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M44,28 h20 c2.2,0 4,1.8 4,4 v40 c0,2.2 -1.8,4 -4,4 h-20 c-2.2,0 -4,-1.8 -4,-4 v-40 c0,-2.2 1.8,-4 4,-4 z" />
+    
+    <!-- Red Light -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M54,37 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0" />
+    <!-- Yellow Light -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M54,49 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0" />
+    <!-- Green Light (Active Glowing) -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M54,61 m-5.5,0 a5.5,5.5 0 1,0 11,0 a5.5,5.5 0 1,0 -11,0" />
+    <path
+        android:fillColor="#34D399"
+        android:pathData="M54,61 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0" />
+
+    <!-- AI Radar Waves (Left) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M30,42 C26,46 26,52 30,56" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M24,36 C18,43 18,55 24,62" />
+
+    <!-- AI Radar Waves (Right) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M78,42 C82,46 82,52 78,56" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M84,36 C90,43 90,55 84,62" />
+
+    <!-- Digital Base Support -->
+    <path
+        android:fillColor="#64748B"
+        android:pathData="M52,82 h4 v6 h-4 z" />
+    <path
+        android:fillColor="#475569"
+        android:pathData="M46,88 h16 v2 h-16 z" />
+</vector>
